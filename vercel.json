@@ -1,0 +1,10 @@
+{
+  "buildCommand": "cd Downloads/sponsor-portal && npm install && npm run build",
+  "outputDirectory": "Downloads/sponsor-portal/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
